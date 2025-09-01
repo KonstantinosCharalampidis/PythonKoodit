@@ -2,7 +2,7 @@
 while command !="stop":
     print("We are free,what to do,let's " + command)
     command = input("Enter command: ")
-print("Execution stopped explicitly")""" #command example
+print("Execution stopped explicitly") #command example """
 
 """---------------------------------------------------------------------"""
 
@@ -22,7 +22,7 @@ while(dice1 !=6 or dice2 != 6):
     dice1=random.randint(1,6)
     dice2=random.randint(1,6)
     rolls = rolls + 1
-print(f"Rolled {rolls:d} times,")"""
+print(f"Rolled {rolls:d} times,") """
 
 """---------------------------------------------------------------------"""
 
