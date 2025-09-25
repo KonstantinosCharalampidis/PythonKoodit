@@ -1,7 +1,7 @@
 import random
 def dice():
-    number=random.randint(1,6)
-    return number
+
+    return random.randint(1,6)
 
 def diceroll():
     rolled = 0
@@ -9,3 +9,7 @@ def diceroll():
         rolled=dice()
         print("You rolled:",rolled)
 diceroll()
+
+
+
+
